@@ -4,9 +4,11 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 from Clonify import app 
 
+import config
+
 #--------------------------
 
-MUST_JOIN = "ProBotts"  ## Chenger mustjoin group/channel username or id
+MUST_JOIN = config.MUST_JOIN  ## Must join group/channel username or id
 
 #--------------------------
 
