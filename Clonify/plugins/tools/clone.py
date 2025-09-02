@@ -27,7 +27,7 @@ from config import SUPPORT_CHAT, OWNER_ID
 
 from datetime import datetime
 CLONES = set()
-
+## Change usernames here shown in clone function.
 C_BOT_DESC = "Wᴀɴᴛ ᴀ ʙᴏᴛ ʟɪᴋᴇ ᴛʜɪs? Cʟᴏɴᴇ ɪᴛ ɴᴏᴡ! ✅\n\nVɪsɪᴛ: @AqiaBot ᴛᴏ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!\n\n - Uᴘᴅᴀᴛᴇ: @ProBotts\n - Sᴜᴘᴘᴏʀᴛ: @ProBotGc"
 
 C_BOT_COMMANDS = [
@@ -102,8 +102,8 @@ async def clone_txt(client, message, _):
                 "name": bot.first_name,
                 "token": bot_token,
                 "username": bot.username,
-                "channel": "ProBotts",
-                "support": "ProBotGc",
+                "channel": "ProBotts", ## here 
+                "support": "ProBotGc", ## here
                 "premium" : False,
                 "Date" : False,
             }

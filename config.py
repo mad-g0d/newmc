@@ -15,11 +15,11 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ZeoXpro")
+OWNER_USERNAME = getenv("OWNER_USERNAME","amjiddader")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "AqiaBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Streamvc_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Aqia")
+BOT_NAME = getenv("BOT_NAME" , "Streamvc_bot")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "AqiaPro")
 # ---------------------------------------------------------
@@ -43,7 +43,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 CLONE_LOGGER = LOGGER_ID
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7355202884))
+OWNER_ID = int(getenv("OWNER_ID"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -74,9 +74,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProBotts")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc")
-CHAT = getenv("CHAT", "https://t.me/ProBotGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProBotts") ## Add own Here
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc") ## Add own here
+CHAT = getenv("CHAT", "https://t.me/ProBotGc") ## Add own here
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 

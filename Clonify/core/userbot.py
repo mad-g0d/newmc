@@ -22,11 +22,12 @@ class Userbot(Client):
         LOGGER(__name__).info(f"Starting Assistants...")
         if config.STRING1:
             await self.one.start()
-            try:
-                await self.one.join_chat("ProBotGc")
-                await self.one.join_chat("ProBotts")
-            except:
-                pass
+            ## Removed this: When you start bot your assistant Joines below 2 groups.
+            # try:
+            #     await self.one.join_chat("ProBotGc")
+            #     await self.one.join_chat("ProBotts")
+            # except:
+            #     pass
             assistants.append(1)
             try:
                 await self.one.send_message(config.LOGGER_ID, "Assistant Started")

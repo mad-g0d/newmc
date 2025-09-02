@@ -133,7 +133,7 @@ async def skip(cli, message: Message, _, chat_id):
         run = await message.reply_photo(
             photo=img,
             caption=_["stream_1"].format(
-                f"https://t.me/NezukoProBot?start=info_{videoid}",
+                f"https://t.me/NezukoProBot?start=info_{videoid}", ## Add here your own
                 title[:23],
                 check[0]["dur"],
                 user,
@@ -166,7 +166,7 @@ async def skip(cli, message: Message, _, chat_id):
         run = await message.reply_photo(
             photo=img,
             caption=_["stream_1"].format(
-                f"https://t.me/NezukoProBot?start=info_{videoid}",
+                f"https://t.me/NezukoProBot?start=info_{videoid}", ## Here
                 title[:23],
                 check[0]["dur"],
                 user,
@@ -239,7 +239,7 @@ async def skip(cli, message: Message, _, chat_id):
             run = await message.reply_photo(
                 photo=img,
                 caption=_["stream_1"].format(
-                    f"https://t.me/NezukoProBot?start=info_{videoid}",
+                    f"https://t.me/NezukoProBot?start=info_{videoid}", ## here
                     title[:23],
                     check[0]["dur"],
                     user,

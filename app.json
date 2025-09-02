@@ -7,8 +7,6 @@
     "telegram",
     "bot",
     "clonify",
-    "ProBots",
-    "TeamProBots",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -26,6 +24,16 @@
     },
     "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
+      "value": "",
+      "required": true
+    },
+    "YTPROXY_URL": {
+      "description": "xBitCode Music API endpoint",
+      "value": "https://tgapi.xbitcode.com",
+      "required": true
+    },
+    "YT_API_KEY": {
+      "description": "Get this key from @tgmusic_apibot on Telegram.",
       "value": "",
       "required": true
     },

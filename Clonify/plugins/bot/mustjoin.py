@@ -2,11 +2,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
-from Clonify import app
+from Clonify import app 
 
 #--------------------------
 
-MUST_JOIN = "ProBotts"
+MUST_JOIN = "ProBotts"  ## Chenger mustjoin group/channel username or id
 
 #--------------------------
 
