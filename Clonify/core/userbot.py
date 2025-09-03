@@ -24,8 +24,8 @@ class Userbot(Client):
             await self.one.start()
             ## Removed this: When you start bot your assistant Joines below 2 groups.
             # try:
-            #     await self.one.join_chat("ProBotGc")
-            #     await self.one.join_chat("ProBotts")
+            #     await self.one.join_chat("DUNE_BOTS")
+            #     await self.one.join_chat("DUNEBOTS")
             # except:
             #     pass
             assistants.append(1)

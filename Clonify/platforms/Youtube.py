@@ -17,7 +17,7 @@ from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 import base64
 from config import YT_API_KEY, YTPROXY_URL as YTPROXY
 
-## Bot based Specific Imports added by @amjiddader
+## Bot based Specific Imports added by @Living_in_delusions
 from Clonify import LOGGER
 from Clonify.utils.database import is_on_off
 from Clonify.utils.formatters import time_to_seconds

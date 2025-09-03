@@ -15,13 +15,13 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","amjiddader")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Living_in_delusions")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Streamvc_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "Streamvc_bot")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "AqiaPro")
+ASSUSERNAME = getenv("ASSUSERNAME" , "StreamVc_Assistant")
 # ---------------------------------------------------------
 
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
@@ -74,9 +74,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProBotts") ## Add own Here
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc") ## Add own here
-CHAT = getenv("CHAT", "https://t.me/ProBotGc") ## Add own here
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DUNEBOTS") ## Add own Here
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DUNE_BOTS") ## Add own here
+CHAT = getenv("CHAT", "https://t.me/DUNE_BOTS") ## Add own here
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
